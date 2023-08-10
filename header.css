@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.html-color{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.header{
+ margin: 0;
+ display: flex;
+ flex-direction: row;
+ height: 55px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+}
+
+.header-logo{
+    padding: 0; 
+    margin-left: 30px;
+}
+.logo{
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.header-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+    gap: 10px;
+}
+.header-elements{
+    margin-right: 12px;
+    color: #1b1b1b;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.5;
+    
+}
+.logo-2{
+    widows: 20px;
+    height: 20px;
+}
+.bodyspace{
+    background-color: #fff;
+}
+
+/***********************level 1***************************************/
+.blue-space{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(157, 187, 248);
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    padding-left: 24px;
+    padding-right :24px;
+    padding-top : 48px;
+}
+
+.blue-text {
+    box-sizing : border-box;
+    display : block;    
+    width: 523.2px  ;
+    height: 710px;
+    padding: 12px;
+}
+h1{
+    margin-bottom :24px;
+    margin-left :0px;
+    margin-right :0px;
+    margin-top :120px;
+    font-size :60px;
+    font-weight: 800;
+    line-height: 64px;
+    text-size-adjust: 100%;
+}
+.blue-body-text{
+    font-size: 20px;
+    font-weight : 400;
+    line-height : 28px;
+    text-size-adjust : 100%;
+        
+}
+p{ 
+    display: block;
+}
+.get-signal{
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    font-weight:bold;
+    color : rgb(44, 107, 237);
+    background-color : rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+}
+.get-signal:hover{
+    border-color: rgb(44, 107, 237);
+}
+.blue-screenshot{
+
+    box-sizing : border-box;
+    display : block;
+    position: relative;
+}
+.screenshot1{
+    position: absolute;
+    rotate: 22.5deg;
+    height: 655px;
+    width: auto;
+    padding-top: 120px;
+    padding-left: 20px;
+    margin-bottom: -750px;
+}
+.screenshot2{
+    rotate: 22.5deg;
+    height: 655px;
+    position: absolute;
+    padding-left: 250px;
+}
+/**************************************/
+.two-line-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom :48px;
+    margin-left :24px;
+    margin-right :24pxpx;
+    margin-top :48px;
+}
+h2{
+    margin: 0;
+    font-size :44px;
+    font-weight: 800;
+    line-height: 64px;
+    text-size-adjust: 100%;
+    padding: 12px;
+}
+.chating{
+    padding-bottom : 48px;
+    padding-left : 24px;
+    padding-right : 24px;
+    padding-top : 48px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin-left: 127px;
+    margin-right: 127px;    
+}
+
+.body-text3{
+    padding: 12px;
+    box-sizing : border-box;
+    display : block;
+    width: 455px;
+    height: 705px;
+    
+}
+h3{
+    margin-bottom: 32px;
+    font-size : 40px;
+    font-weight : 800;
+    line-height : 44px;
+    
+}
+.content{
+    font-size : 20px;
+    font-weight : 400px;
+    text-align: start; 
+    width: 340px;   
+    display: inline-block;
+    height: auto;
+}
+.chating-gif{
+    padding: 12px;
+    width: 800px;
+    padding-left: 230px;
+}
+.chating-gif img{
+    width: 680px;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+/***********************************/
+.grid{
+    display: grid;
+    background-color: #f6f6f6;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 48px 90px;
+}   
+
+.one{
+    background-color: #fff;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.12), 
+                0px 0px 2px rgba(0,0,0,0.08);
+} 
+.two{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}   
+.two img{
+    width: 370px ;
+}
+h4{
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-size : 28px;
+    font-weight : 800;
+    line-height : 32px;
+}
+.text-group{
+    font-size : 16px;
+    font-weight : 400;
+    line-height : 22px;
+    text-align: center;
+
+}
+
+/****************************/
+
+.parameter{
+    display: flex;
+    flex-direction: row;
+    padding: 48px 80px;
+}
+.parameter-text{
+    padding: 12px;
+    width: 33.3%;
+}
+.parameter-text p{
+    font-size : 23px;
+    font-weight : 350;
+    line-height : 28px;
+    text-align: start   
+}
+.parameter-img{
+    padding: 12px;
+    width: auto;
+}
+.parameter-img img{
+    width: 680px;
+    border-radius: 15px;
+}
+
+/*******************************/
+.para{
+    display: flex;
+    flex-direction: row;
+    padding-left: 245px;
+    padding-right: 50px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.para-img img{
+    width: 680px;
+    border-radius: 15px;
+}
+.para-img{
+    padding: 12px;
+    width: auto;
+}
+.para-text a{
+    padding: 9px 20px;
+    border: 2px solid #2c6bed;
+    font-size: 20px ;
+    line-height: 28px;
+    line-height: 30px;
+    border-radius: 8px;
+    color: #2c6bed;
+}
+.para-text h3{
+    margin-bottom: 32px;
+}
+.para-text p{
+    font-size : 23px;
+    font-weight : 350;
+    line-height : 28px;
+    text-align: start;
+    width: 480px;
+}   
+/************************************/
+footer{
+    background-color: #3C3744;
+    color: #E9E9E9;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    padding-bottom : 96px;
+    padding-left : 24px;
+    padding-right : 115px;
+    padding-top : 48px;
+    justify-content: space-around;
+}   
+.footer-one{
+    width: 500px;
+}
+
+.footer-one p span{
+ cursor: pointer;
+}
+h5{ 
+    font-weight: 600px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 0;
+}
+.footer-two a{
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400px;
+    width: 205px;
+}
